@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 113px;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    /* height: 50px; */
+    /* width: 100%; */
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid whitesmoke;
+}
+
+/* set 2 in navbar  */
+.add-first {
+    color: #cccccc;
+    font-size: 0.7rem;
+    margin-left: 17.6px ;
+}
+/* rem use root size optimization */
+
+.add-second{
+    font-size: 1.1rem;
+}
+
+.add-icon {
+    /* font-size: 1.1rem; */
+    display: flex;
+    align-items: center;
+}
+
+.add-icon i {
+    font-size: 1.1rem;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+    width: 620px;
+    height: 50px;
+    border: 0;
+    border-radius: 6px;
+}
+.nav-search:hover{
+    border: 2px solid rgb(187, 212, 3);
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none    ;
+}
+
+.search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-color:#febd68;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color: #1b1f1f;
+    
+}
+.search-icon i{
+    font-size: 2rem;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+
+/* box -4 */
+
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 1.1rem;
+    font-weight:700 ;
+}
+/* cart */
+.nav-cart{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+.nav-cart i {
+    font-size: 2rem;
+}
+
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    display: flex;
+    color:white;
+    align-items: center;
+    /* justify-content: space-evenly ; */
+    
+}
+.panel i{
+    margin: 13px;
+}
+
+.panel-ops p{
+    display: inline;
+    margin: 13px;
+}
+.panel-ops{
+    margin: 13px;
+    width: 90%;
+    font-size: 0.9rem;
+}
+
+/* hero section */
+.hero-section{
+    background-image: url(amazon_hero.jpg);
+    height: 600px;
+    background-size: cover;
+}
+
+/* shopping */
+.shopping{
+    display: flex ;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    margin-top: -300px;
+    flex-wrap: wrap;
+}
+.box{
+    margin-top: 15px;
+    height: 370px;
+    border: 2px solid black;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    border:0;
+    
+}
+
+.box-img{
+    height: 300px;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+    /* background-image: url('gaming_accessories.PNG'); */
+}
+.box-content{
+    margin-left:10px;
+    margin-right: 10px;
+    color:#007185;
+}
+
+
+/* footer */
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .85 rem;
+}
+
+ul{
+
+    margin: 25px;
+    list-style-type: none;
+
+}
+
+ul a{
+    text-decoration: none;
+    color: #DDDDDD;
+    font-size: 0.85rem;
+    margin: 10px;
+}
+
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top:0.5px solid whitesmoke;
+    height:70px;
+    display: flex;
+    justify-content: center;
+}
+.foot-panel4{
+    background-color: #222f3d;
+
+    height: 60px;
+}
+
+.foot-panel4 a{
+    color: #DDDDDD;
+    text-decoration: none;
+    
+}
+.copyright{
+    color: #DDDDDD; 
+    font-size: 0.7rem;
+    text-align: center;
+    padding:10px;
+}
+
+.pages{
+    font-size: 0.7rem;
+    align-items: center;
+    text-align: center;
+    padding: 4px;
+    
+}
+.pages a{
+    margin-left: 10px ;
+}
